@@ -5,7 +5,7 @@ print(pc_num)
 attemsps = 0
 
 while True: 
-  player_num = int(input("Enter a number between 1-10: "))
+  player_num = int(input("Pick a number between 1-10: "))
   if 10 >= player_num >= 1:
     attemsps+=1
   else:
